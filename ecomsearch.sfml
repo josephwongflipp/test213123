@@ -1,0 +1,107 @@
+<storefront xmlns="http://schemas.flipp.com/sfml/2.0" revision="90" subtitle="DPTesting" title="Blueprint name" uuid="f51ebedc-c48b-4972-ad5d-0e70e2c1d367" sfml-version="2">
+    <head>
+        <styles>
+            <style id="ss_1736dee6-6552-4847-b4af-2969346415e1" padding="15px 15px 15px 15px" background-color="#ffffff" />
+            <style id="ss_226c93da-eb5c-423d-8632-ffd42f9fc69b" />
+            <style id="ss_296b186a-72c9-498f-8240-3384412a1f03" padding="15px 15px 15px 15px" background-color="#ffffff" />
+            <style id="ss_2b0ae122-849d-4005-8288-1f981e632986" padding="15px 15px 15px 15px" background-color="#ffffff" />
+            <style id="ss_40d83453-92dd-45a1-966d-124e4e3e439d" padding="15px 15px 15px 15px" background-color="#ffffff" />
+            <style id="ss_534ef90d-6d3c-4db0-9c6a-92e6dc506fa1" />
+            <style id="ss_67435266-c1b1-4095-9508-ddf6c9ce28af" font-family="HelveticaNeueLTStd-Roman" font-color="#000000" font-size="28" />
+            <style id="ss_6cbf91a7-9d90-4d58-97f7-8f64acf56f76" padding="15px 15px 15px 15px" background-color="#ffffff" />
+            <style id="ss_7403cdd0-6692-4fe1-adf2-f02f065cf725" font-family="HelveticaNeueLTStd-Roman" font-color="#FF0000" font-size="28" />
+            <style id="ss_766454c2-6b99-4fce-a58c-c0efa3c3e0cd" />
+            <style id="ss_7c64800a-6210-4340-93e4-52ecb46803b8" padding="15px 15px 15px 15px" background-color="#ffffff" />
+            <style id="ss_7e8c7c36-a2b3-41a1-9902-7ed430d345c9" />
+            <style id="ss_84d015d4-419b-48fc-b94c-b5d95faa36c9" padding="15px 15px 15px 15px" background-color="#ffffff" />
+            <style id="ss_909c1711-1fb5-446d-851a-f41563248dfd" font-family="HelveticaNeueLTStd-Roman" font-color="#000000" font-size="8" />
+            <style id="ss_940e71a5-563d-49fe-b817-0af1f8638849" font-family="HelveticaNeueLTStd-Roman" font-color="#000000" font-size="12" />
+            <style id="ss_a4da223b-2519-4a89-a8ef-1e47b89d38a2" font-family="HelveticaNeueLTStd-Roman" font-color="#FF0000" font-size="14" />
+            <style id="ss_a9a84790-31fd-4d27-a311-48d5f887a8a6" />
+            <style id="ss_aa42e38d-4d93-4ae7-9d12-47e5ebc2f634" />
+            <style id="ss_ac6f3cf8-caac-4995-9361-3833047bcb75" />
+            <style id="ss_b1a6cd4b-83b9-4a07-a0e9-699cbe14af99" />
+            <style id="ss_b347ec92-dedd-4142-8f45-88121a1c0735" padding="15px 15px 15px 15px" background-color="#ffffff" />
+            <style id="ss_b65e1ac0-5222-4f6c-b463-679ad63f8ceb" />
+            <style id="ss_c6106495-6cc1-4a71-8ce0-0e329e8d7cce" />
+        </styles>
+    </head>
+    <body>
+        <linear-layout width="match-parent" height="wrap-content">
+            <linear-layout width="match-parent" height="wrap-content" style-id="ss_a9a84790-31fd-4d27-a311-48d5f887a8a6">
+                <flexbox orientation="horizontal" width="match-parent" height="wrap-content" style-id="ss_a9a84790-31fd-4d27-a311-48d5f887a8a6">
+                    <image width="match-parent" height="preserve-aspect" aspect-ratio="0.119719" flex-grow="1">
+                        <url-source url="https://f.wishabi.net/digital-production/staging/5985/assets/bc01f119-9467-4b5d-8867-4920732ff18d/06up_Cover_01-Logo.jpg" width="1136" height="136">
+                            <area href="https://www.homedepot.ca/en/home.html" rect="0 0 1136 136" source-id="dm_asset-06up_Cover_01-Logo-ds1_7037" source="action" anchor-id="0">
+                                <action type="link" ttm-url="https://www.homedepot.ca/en/home.html" />
+                            </area>
+                        </url-source>
+                    </image>
+                </flexbox>
+                <flexbox orientation="horizontal" width="match-parent" height="wrap-content" style-id="ss_c6106495-6cc1-4a71-8ce0-0e329e8d7cce">
+                    <image width="match-parent" height="preserve-aspect" aspect-ratio="0.350459" flex-grow="1">
+                        <url-source url="https://f.wishabi.net/digital-production/staging/5985/assets/bc01f119-9467-4b5d-8867-4920732ff18d/06up_Cover_01-810.jpg" width="1090" height="382">
+                            <area href="https://www.homedepot.ca/en/home.html" rect="0 0 1090 382" source-id="dm_asset-06up_Cover_01-810-ds1_7037" source="action" anchor-id="0">
+                                <action type="link" ttm-url="https://www.homedepot.ca/en/home.html" />
+                            </area>
+                        </url-source>
+                    </image>
+                </flexbox>
+                <flexbox orientation="horizontal" width="match-parent" height="wrap-content" style-id="ss_aa42e38d-4d93-4ae7-9d12-47e5ebc2f634">
+                    <item-atom width="0" height="wrap-content" source-id="1666666666666666" source="ecom" style-id="ss_1736dee6-6552-4847-b4af-2969346415e1" image-position="image-top" image-url="https://f.wishabi.net/digital-production/staging/5985/assets/bc01f119-9467-4b5d-8867-4920732ff18d/p_1000694311.jpg" image-width="874" image-height="436" flex-grow="1">
+                        <text style-id="ss_67435266-c1b1-4095-9508-ddf6c9ce28af" value="129.00 $ chaque" />
+                        <text style-id="ss_940e71a5-563d-49fe-b817-0af1f8638849" value="Meuleuse-rectifieuse sans fil M18 au lithium-ion, 4 1/2 po, 18 V (outil seulement)" max-lines="4" />
+                        <text style-id="ss_909c1711-1fb5-446d-851a-f41563248dfd" value="1000694311" />
+                        <beacon-meta sku="1000694311" />
+                    </item-atom>
+                    <item-atom width="0" height="wrap-content" source-id="2666666666666666" source="ecom" style-id="ss_b347ec92-dedd-4142-8f45-88121a1c0735" image-position="image-top" image-url="https://f.wishabi.net/digital-production/staging/5985/assets/bc01f119-9467-4b5d-8867-4920732ff18d/p_1001031415.jpg" image-width="954" image-height="1000" flex-grow="1">
+                        <text style-id="ss_7403cdd0-6692-4fe1-adf2-f02f065cf725" value="14.98 $ chaque" />
+                        <text style-id="ss_a4da223b-2519-4a89-a8ef-1e47b89d38a2" value="16% OFF" />
+                        <text style-id="ss_940e71a5-563d-49fe-b817-0af1f8638849" value="1-inch x 12 ft. Ratchet Tie-Down (4-Pack)" max-lines="4" />
+                        <text style-id="ss_909c1711-1fb5-446d-851a-f41563248dfd" value="1001031415" />
+                        <badge url="https://f.wishabi.net/digital-production/staging/5985/assets/9426/badges/new_lower_price.png" width="60" height="60" h-pos="0" v-pos="0" x="start" y="start" badge-application="image" />
+                        <beacon-meta sku="1001031415" />
+                    </item-atom>
+                </flexbox>
+                <flexbox orientation="horizontal" width="match-parent" height="wrap-content" style-id="ss_aa42e38d-4d93-4ae7-9d12-47e5ebc2f634">
+                    <item-atom width="0" height="wrap-content" source-id="3666666666666666" source="ecom" style-id="ss_1736dee6-6552-4847-b4af-2969346415e1" image-position="image-top" image-url="https://f.wishabi.net/digital-production/staging/5985/assets/bc01f119-9467-4b5d-8867-4920732ff18d/p_1000680736.jpg" image-width="916" image-height="768" flex-grow="1">
+                        <text style-id="ss_7403cdd0-6692-4fe1-adf2-f02f065cf725" value="9.60 $ chaque" />
+                        <text style-id="ss_940e71a5-563d-49fe-b817-0af1f8638849" value="Planche pour terrasse, 5/4 x 6 x 12 pi, bois traité" max-lines="4" />
+                        <text style-id="ss_909c1711-1fb5-446d-851a-f41563248dfd" value="1000680736" />
+                        <beacon-meta sku="1000680736" />
+                    </item-atom>
+                    <item-atom width="0" height="wrap-content" source-id="4666666666666666" source="ecom" style-id="ss_b347ec92-dedd-4142-8f45-88121a1c0735" image-position="image-top" image-url="https://f.wishabi.net/digital-production/staging/5985/assets/bc01f119-9467-4b5d-8867-4920732ff18d/p_1001493727.jpg" image-width="1000" image-height="1000" flex-grow="1">
+                        <text style-id="ss_67435266-c1b1-4095-9508-ddf6c9ce28af" value="98.90 $ chaque" />
+                        <text style-id="ss_940e71a5-563d-49fe-b817-0af1f8638849" value="Bureau de matériau mixte ClosetMaid - Gris" max-lines="4" />
+                        <text style-id="ss_909c1711-1fb5-446d-851a-f41563248dfd" value="1001493727" />
+                        <beacon-meta sku="1001493727" />
+                    </item-atom>
+                </flexbox>
+                <flexbox orientation="horizontal" width="match-parent" height="wrap-content" style-id="ss_226c93da-eb5c-423d-8632-ffd42f9fc69b">
+                    <item-atom width="0" height="wrap-content" source-id="5666666666666666" source="ecom" style-id="ss_1736dee6-6552-4847-b4af-2969346415e1" image-position="image-top" image-url="https://f.wishabi.net/digital-production/staging/5985/assets/bc01f119-9467-4b5d-8867-4920732ff18d/p_1001299402.jpg" image-width="939" image-height="752" flex-grow="1">
+                        <text style-id="ss_7403cdd0-6692-4fe1-adf2-f02f065cf725" value="400.00 $ chaque" />
+                        <text style-id="ss_a4da223b-2519-4a89-a8ef-1e47b89d38a2" value="11% OFF" />
+                        <text style-id="ss_940e71a5-563d-49fe-b817-0af1f8638849" value="M18 FUEL Ensemble marteau perforateur et marteau perforateur à percussion sans fil sans fil au lithium-ion M18 FUEL 18V (2 outils)" max-lines="4" />
+                        <text style-id="ss_909c1711-1fb5-446d-851a-f41563248dfd" value="1001299402" />
+                        <badge url="https://f.wishabi.net/digital-production/staging/5985/assets/9426/badges/new_lower_price.png" width="60" height="60" h-pos="0" v-pos="0" x="start" y="start" badge-application="image" />
+                        <beacon-meta sku="1001299402" />
+                    </item-atom>
+                    <item-atom width="0" height="wrap-content" source-id="6666666666666666" source="ecom-search" style-id="ss_b347ec92-dedd-4142-8f45-88121a1c0735" image-position="image-top" image-url="https://f.wishabi.net/digital-production/staging/5985/assets/bc01f119-9467-4b5d-8867-4920732ff18d/p_1001311232.jpg" image-width="346" image-height="740" flex-grow="1">
+                        <text style-id="ss_67435266-c1b1-4095-9508-ddf6c9ce28af" value="188.00 $ chaque" />
+                        <text style-id="ss_940e71a5-563d-49fe-b817-0af1f8638849" value="ecom-search atom" max-lines="4" />
+                        <text style-id="ss_909c1711-1fb5-446d-851a-f41563248dfd" value="1001311232" />
+                    </item-atom>
+                </flexbox>
+                <flexbox orientation="horizontal" width="match-parent" height="wrap-content" style-id="ss_a9a84790-31fd-4d27-a311-48d5f887a8a6">
+                    <image width="match-parent" height="preserve-aspect" aspect-ratio="0.105634" flex-grow="1">
+                        <url-source url="https://f.wishabi.net/digital-production/staging/5985/assets/bc01f119-9467-4b5d-8867-4920732ff18d/06up_Cover_01-910.jpg" width="1136" height="120">
+                            <area href="https://www.homedepot.ca/en/home.html" rect="0 0 1136 120" source-id="dm_asset-06up_Cover_01-910-ds1_7037" source="action" anchor-id="0">
+                                <action type="link" ttm-url="https://www.homedepot.ca/en/home.html" />
+                            </area>
+                        </url-source>
+                    </image>
+                </flexbox>
+            </linear-layout>
+        </linear-layout>
+    </body>
+</storefront>
