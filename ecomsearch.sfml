@@ -1,30 +1,5 @@
 <storefront xmlns="http://schemas.flipp.com/sfml/2.0" revision="90" subtitle="DPTesting" title="Blueprint name" uuid="f51ebedc-c48b-4972-ad5d-0e70e2c1d367" sfml-version="2">
     <head>
-        <styles>
-            <style id="ss_1736dee6-6552-4847-b4af-2969346415e1" padding="15px 15px 15px 15px" background-color="#ffffff" />
-            <style id="ss_226c93da-eb5c-423d-8632-ffd42f9fc69b" />
-            <style id="ss_296b186a-72c9-498f-8240-3384412a1f03" padding="15px 15px 15px 15px" background-color="#ffffff" />
-            <style id="ss_2b0ae122-849d-4005-8288-1f981e632986" padding="15px 15px 15px 15px" background-color="#ffffff" />
-            <style id="ss_40d83453-92dd-45a1-966d-124e4e3e439d" padding="15px 15px 15px 15px" background-color="#ffffff" />
-            <style id="ss_534ef90d-6d3c-4db0-9c6a-92e6dc506fa1" />
-            <style id="ss_67435266-c1b1-4095-9508-ddf6c9ce28af" font-family="HelveticaNeueLTStd-Roman" font-color="#000000" font-size="28" />
-            <style id="ss_6cbf91a7-9d90-4d58-97f7-8f64acf56f76" padding="15px 15px 15px 15px" background-color="#ffffff" />
-            <style id="ss_7403cdd0-6692-4fe1-adf2-f02f065cf725" font-family="HelveticaNeueLTStd-Roman" font-color="#FF0000" font-size="28" />
-            <style id="ss_766454c2-6b99-4fce-a58c-c0efa3c3e0cd" />
-            <style id="ss_7c64800a-6210-4340-93e4-52ecb46803b8" padding="15px 15px 15px 15px" background-color="#ffffff" />
-            <style id="ss_7e8c7c36-a2b3-41a1-9902-7ed430d345c9" />
-            <style id="ss_84d015d4-419b-48fc-b94c-b5d95faa36c9" padding="15px 15px 15px 15px" background-color="#ffffff" />
-            <style id="ss_909c1711-1fb5-446d-851a-f41563248dfd" font-family="HelveticaNeueLTStd-Roman" font-color="#000000" font-size="8" />
-            <style id="ss_940e71a5-563d-49fe-b817-0af1f8638849" font-family="HelveticaNeueLTStd-Roman" font-color="#000000" font-size="12" />
-            <style id="ss_a4da223b-2519-4a89-a8ef-1e47b89d38a2" font-family="HelveticaNeueLTStd-Roman" font-color="#FF0000" font-size="14" />
-            <style id="ss_a9a84790-31fd-4d27-a311-48d5f887a8a6" />
-            <style id="ss_aa42e38d-4d93-4ae7-9d12-47e5ebc2f634" />
-            <style id="ss_ac6f3cf8-caac-4995-9361-3833047bcb75" />
-            <style id="ss_b1a6cd4b-83b9-4a07-a0e9-699cbe14af99" />
-            <style id="ss_b347ec92-dedd-4142-8f45-88121a1c0735" padding="15px 15px 15px 15px" background-color="#ffffff" />
-            <style id="ss_b65e1ac0-5222-4f6c-b463-679ad63f8ceb" />
-            <style id="ss_c6106495-6cc1-4a71-8ce0-0e329e8d7cce" />
-        </styles>
     </head>
     <body>
         <linear-layout width="match-parent" height="wrap-content">
