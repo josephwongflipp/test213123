@@ -1,0 +1,166 @@
+<storefront title="Robertsons Mock" subtitle="Mar 16 to Forever" uuid="123456-asdfg" revision="1" sfml-version="2" xmlns="http://schemas.flipp.com/sfml/2.0">
+    <head>
+        <styles>
+            <!-- blank style used by top-level linear layout-->
+            <style id="ss_b1a6cd4b-83b9-4a07-a0e9-699cbe14af99"></style>
+
+            <!-- flexbox style used to draw a bottom line around the entire 1-up, 2-up, 3-up -->
+            <style id="ss_aa42e38d-4d93-4ae7-9d12-47e5ebc2f634" margin="0 5 0 5" padding="0 3 0 3" border-color="#e5e5e5" border-style="solid" border-width="2" border-bottom-show="true"></style>
+            <!-- flexbox style used to contain a 1-up, 2-up, 3-up but no bottom border -->
+            <style id="ss_aa42e38d-4d93-4ae7-9d12-asdfgasdfgas" margin="0 5 0 5" padding="0 0 0 0"></style>
+
+            <!-- item atom no border used by atoms on the left, as the right item is the one that draws border on its left -->
+            <style id="ss_1736dee6-6552-4847-b4af-2969346415e1" padding="5 1 5 1" background-color="#ffffff"></style>
+            <!-- item atom with left border used by atoms on the right to draw borders inside 2-up, 3-up -->
+            <style id="ss_b347ec92-dedd-4142-8f45-88121a1c0735" border-color="#e5e5e5" border-style="solid" border-width="2" border-left-show="true" padding="5 1 5 1" background-color="#ffffff"></style>
+            <!-- item atom with right border used by atoms on the left to draw borders inside 2-up-row -->
+            <style id="ss_b347ec92-dedd-4142-8f45-qwertyrewtee" border-color="#e5e5e5" border-style="solid" border-width="2" border-right-show="true" margin="5 1 5 1" background-color="#ffffff"></style>
+
+            <!-- WHITE blank sales story used for aligning text-->
+            <!-- WHITE blank sales story used for aligning text-->
+            <style id="0" font-family="TrebuchetMS" font-weight="bold" font-color="#FFFFFF" font-size="14"></style>
+            <!-- sales story, price, post price, name, sub-name styles-->
+            <style id="1" font-family="http://webpagepublicity.com/free-fonts/a/American%20Dream.ttf" font-weight="bold" font-color="#FF0000" font-size="14"></style>
+            <style id="2" font-family="TrebuchetMS" font-weight="bold" font-color="#000000" font-size="21"></style>
+            <style id="3" font-family="TrebuchetMS" font-weight="normal" font-color="#000000" font-size="12"></style>
+            <style id="4" font-family="http://webpagepublicity.com/free-fonts/e/Earthquake%20MF.ttf" font-weight="normal" font-color="#000000" font-size="14"></style>
+            <style id="5" font-family="TrebuchetMS" font-weight="normal" font-color="#8b8b8b" font-size="10"></style>
+        </styles>
+    </head>
+    <body>
+        <linear-layout width="match-parent" height="wrap-content">
+            <linear-layout width="match-parent" height="wrap-content" style-id="ss_b1a6cd4b-83b9-4a07-a0e9-699cbe14af99">
+                <badge url="https://1000logos.net/wp-content/uploads/2019/06/Toronto-Maple-Leafs-Logo-150x150.jpg" width="60" height="62" h-pos="0.05" v-pos="0" x="start" y="start"></badge>
+                <flexbox orientation="horizontal" width="match-parent" height="wrap-content" style-id="ss_b1a6cd4b-83b9-4a07-a0e9-699cbe14af99">
+                    <image width="match-parent" height="preserve-aspect" aspect-ratio="1.021" flex-grow="1">
+                        <badge url="https://1000logos.net/wp-content/uploads/2019/06/Toronto-Maple-Leafs-Logo-150x150.jpg" width="62" height="64" h-pos="0.5" v-pos="0.5" x="center" y="center" badge-application="text"></badge>
+                        <url-source url="https://dummyimage.com/381x358/ff0000/ffffff.png%26text=URL%20Source" width="750" height="766"></url-source>
+                    </image>
+                </flexbox>
+                <flexbox orientation="horizontal" width="match-parent" height="wrap-content" style-id="ss_aa42e38d-4d93-4ae7-9d12-47e5ebc2f634">
+                    <badge url="https://1000logos.net/wp-content/uploads/2019/06/Toronto-Maple-Leafs-Logo-150x150.jpg" width="60" height="62" h-pos="0.05" v-pos="0" x="start" y="start" badge-application="image"></badge>
+                    <item-atom width="0" height="match-parent" source-id="do_offer-sku-1000694311-ds1_7037" source="offer" payload-sku="1000694311" style-id="ss_1736dee6-6552-4847-b4af-2969346415e1" image-position="image-top" flex-grow="1" image-url="https://dummyimage.com/381x358/ff0000/ffffff.png%26text=Item%20Atom" image-width="146" image-height="196">
+                        <badge url="https://1000logos.net/wp-content/uploads/2019/06/Toronto-Maple-Leafs-Logo-150x150.jpg" width="60" height="62" h-pos="1" v-pos="0" x="end" y="start" badge-application="text"></badge>
+                        <text style-id="1" value="SAVE $15"></text>
+                        <text style-id="2" value="$249.00"></text>
+                        <text style-id="3" value="was $264.00"></text>
+                        <text style-id="4" value="Pixie Electric Titan" max-lines="2"></text>
+                        <text style-id="5" value="13.5 to 34.2-oz"></text>
+                    </item-atom>
+                    <item-atom width="0" height="match-parent" source-id="do_offer-sku-1001031415-ds1_7037" source="offer" payload-sku="1001031415" style-id="ss_b347ec92-dedd-4142-8f45-88121a1c0735" image-position="image-top" flex-grow="1" image-url="https://dummyimage.com/381x358/ff0000/ffffff.png%26text=Item%20Atom" image-width="178" image-height="184">
+                        <badge url="https://1000logos.net/wp-content/uploads/2019/06/Toronto-Maple-Leafs-Logo-150x150.jpg" width="60" height="62" h-pos="1" v-pos="1" x="end" y="end" badge-application="image"></badge>
+                        <text style-id="1" value="SAVE $15"></text>
+                        <text style-id="2" value="$119.00"></text>
+                        <text style-id="3" value="/each"></text>
+                        <text style-id="5" value="Ninja Blender with Single Serve Cups" max-lines="2"></text>
+                    </item-atom>
+                </flexbox>
+                <flexbox orientation="horizontal" width="match-parent" height="wrap-content" style-id="ss_aa42e38d-4d93-4ae7-9d12-asdfgasdfgas">
+                    <item-atom width="0" height="match-parent" source-id="do_offer-sku-1000152763-ds1_7037" source="offer" payload-sku="1000152763" style-id="ss_1736dee6-6552-4847-b4af-2969346415e1" image-position="image-top" flex-grow="1" image-url="https://dummyimage.com/381x358/ff0000/ffffff.png%26text=Item%20Atom" image-width="212" image-height="160">
+                        <badge url="https://1000logos.net/wp-content/uploads/2019/06/Toronto-Maple-Leafs-Logo-150x150.jpg" width="62" height="64" h-pos="0.5" v-pos="0.5" x="center" y="center" badge-application="image"></badge>
+                        <text style-id="1" value="SAVE $25"></text>
+                        <text style-id="2" value="$275.00"></text>
+                        <text style-id="3" value="/each"></text>
+                        <text style-id="4" value="Le Creuset Signature Round Dutch Oven" max-lines="2"></text>
+                        <text style-id="5" value="Blueberry"></text>
+                    </item-atom>
+                    <item-atom width="0" height="match-parent" source-id="do_offer-sku-1001180453-ds1_7037" source="offer" payload-sku="1001180453" style-id="ss_b347ec92-dedd-4142-8f45-88121a1c0735" image-position="image-top" flex-grow="1" image-url="https://dummyimage.com/381x358/ff0000/ffffff.png%26text=Item%20Atom" image-width="275" image-height="183">
+                        <text style-id="0" value="SAVE $15"></text>
+                        <text style-id="2" value="$325.00"></text>
+                        <text style-id="3" value="/each"></text>
+                        <text style-id="4" value="Le Creuset Casserole Cocotte Oval" max-lines="2"></text>
+                        <text style-id="5" value="4.7 L - Orange"></text>
+                    </item-atom>
+                    <item-atom width="0" height="match-parent" source-id="do_offer-sku-1001076642-ds1_7037" source="offer" payload-sku="1001076642" style-id="ss_b347ec92-dedd-4142-8f45-88121a1c0735" image-position="image-top" flex-grow="1" image-url="https://dummyimage.com/381x358/ff0000/ffffff.png%26text=Item%20Atom" image-width="715" image-height="1000">
+                        <text style-id="1" value="SALE"></text>
+                        <text style-id="2" value="$17.99"></text>
+                        <text style-id="3" value="/each"></text>
+                        <text style-id="4" value="Rubbermaid Plastic Containers" max-lines="2"></text>
+                        <text style-id="5" value="8-pk"></text>
+                    </item-atom>
+                </flexbox>
+                <flexbox orientation="horizontal" width="match-parent" height="wrap-content" style-id="ss_b1a6cd4b-83b9-4a07-a0e9-699cbe14af99">
+                    <image width="match-parent" height="preserve-aspect" aspect-ratio="0.10666" flex-grow="1">
+                        <url-source url="https://dummyimage.com/381x358/ff0000/ffffff.png%26text=URL%20Source" width="750" height="80"></url-source>
+                    </image>
+                </flexbox>
+                <flexbox orientation="horizontal" width="match-parent" height="wrap-content" style-id="ss_b1a6cd4b-83b9-4a07-a0e9-699cbe14af99">
+                    <image width="match-parent" height="preserve-aspect" aspect-ratio="0.365333" flex-grow="1">
+                        <url-source url="https://dummyimage.com/381x358/ff0000/ffffff.png%26text=URL%20Source" width="750" height="274"></url-source>
+                    </image>
+                </flexbox>
+                <flexbox orientation="horizontal" width="match-parent" height="wrap-content" style-id="ss_aa42e38d-4d93-4ae7-9d12-47e5ebc2f634">
+                    <item-atom width="0" height="match-parent" source-id="do_offer-sku-1000468970-ds1_7037" source="offer" payload-sku="1000468970" style-id="ss_1736dee6-6552-4847-b4af-2969346415e1" image-position="image-top" flex-grow="2" image-url="https://dummyimage.com/381x358/ff0000/ffffff.png%26text=Item%20Atom" image-width="400" image-height="400">
+                        <text style-id="0" value="SAVE $15"></text>
+                        <text style-id="2" value="2/$5.00"></text>
+                        <text style-id="3" value="/each"></text>
+                        <text style-id="4" value="Lay's, Miss Vickie's and Sun Chips Snacks" max-lines="2"></text>
+                        <text style-id="5" value="13.5- to 34.2-oz"></text>
+                    </item-atom>
+                    <item-atom width="0" height="match-parent" source-id="do_offer-sku-1000468970-ds1_7037" source="offer" payload-sku="1000468970" style-id="ss_b347ec92-dedd-4142-8f45-88121a1c0735" image-position="image-top" flex-grow="1" image-url="https://dummyimage.com/381x358/ff0000/ffffff.png%26text=Item%20Atom" image-width="204" image-height="170">
+                        <text style-id="1" value="SAVE $1"></text>
+                        <text style-id="2" value="4/$8.00"></text>
+                        <text style-id="3" value="/each"></text>
+                        <text style-id="5" value="Coca-Cola, Sprite, 7UP and more" max-lines="2"></text>
+                        <text style-id="5" value="12-pk. 12-oz. cans"></text>
+                    </item-atom>
+                </flexbox>
+                <flexbox orientation="horizontal" width="match-parent" height="wrap-content" style-id="ss_aa42e38d-4d93-4ae7-9d12-asdfgasdfgas">
+                    <item-atom width="0" height="match-parent" source-id="do_offer-sku-1000152763-ds1_7037" source="offer" payload-sku="1000152763" style-id="ss_1736dee6-6552-4847-b4af-2969346415e1" image-position="image-top" flex-grow="1" image-url="https://dummyimage.com/381x358/ff0000/ffffff.png%26text=Item%20Atom" image-width="200" image-height="200">
+                        <text style-id="1" value="BUY 1, GET 1"></text>
+                        <text style-id="2" value="$50% OFF"></text>
+                        <text style-id="3" value="/each"></text>
+                        <text style-id="5" value="Select Goldfish Baked Crackers" max-lines="2"></text>
+                        <text style-id="5" value="12-oz. box"></text>
+                    </item-atom>
+                    <item-atom width="0" height="match-parent" source-id="do_offer-sku-1001180453-ds1_7037" source="offer" payload-sku="1001180453" style-id="ss_b347ec92-dedd-4142-8f45-88121a1c0735" image-position="image-top" flex-grow="1" image-url="https://dummyimage.com/381x358/ff0000/ffffff.png%26text=Item%20Atom" image-width="228" image-height="192">
+                        <badge url="https://1000logos.net/wp-content/uploads/2019/06/Toronto-Maple-Leafs-Logo-150x150.jpg" width="62" height="64" h-pos="0.05" v-pos="0" x="start" y="start" badge-application="image"></badge>
+                        <text style-id="1" value="WAS $3.75"></text>
+                        <text style-id="2" value="$2.75"></text>
+                        <text style-id="3" value="/each"></text>
+                        <text style-id="5" value="MnMs and Reese's Chocolate" max-lines="2"></text>
+                        <text style-id="5" value="Select Products"></text>
+                    </item-atom>
+                    <item-atom width="0" height="match-parent" source-id="do_offer-sku-1001076642-ds1_7037" source="offer" payload-sku="1001076642" style-id="ss_b347ec92-dedd-4142-8f45-88121a1c0735" image-position="image-top" flex-grow="1" image-url="https://dummyimage.com/381x358/ff0000/ffffff.png%26text=Item%20Atom" image-width="532" image-height="380">
+                        <text style-id="1" value="SAVE $1"></text>
+                        <text style-id="2" value="$2.50"></text>
+                        <text style-id="3" value="/each"></text>
+                        <text style-id="5" value="Tostitos Chunk Salsa" max-lines="2"></text>
+                        <text style-id="5" value="Medium, 18 fl oz."></text>
+                    </item-atom>
+                </flexbox>
+                <flexbox orientation="horizontal" width="match-parent" height="wrap-content" style-id="ss_b1a6cd4b-83b9-4a07-a0e9-699cbe14af99">
+                    <image width="match-parent" height="preserve-aspect" aspect-ratio="0.4469" flex-grow="1">
+                        <url-source url="https://dummyimage.com/381x358/ff0000/ffffff.png%26text=URL%20Source" width="716" height="320"></url-source>
+                    </image>
+                </flexbox>
+                <flexbox orientation="horizontal" width="match-parent" height="wrap-content">
+                    <linear-layout orientation="vertical" width="match-parent" height="wrap-content" flex-grow="2" style-id="ss_b347ec92-dedd-4142-8f45-qwertyrewtee">
+                        <item-atom width="0" height="match-parent" source-id="do_offer-sku-1000657941-ds1_7037" source="offer" payload-sku="1000657941"  image-position="image-top" flex-grow="1" image-url="https://dummyimage.com/381x358/ff0000/ffffff.png%26text=Item%20Atom" image-width="995" image-height="728">
+                            <text style-id="1" value="LIMITED TIME OFFER"></text>
+                            <text style-id="2" value="$21.00"></text>
+                            <text style-id="3" value="per 1 kg."></text>
+                            <text style-id="5" value="Fresh Market Atlantic Salmon Fillet" max-lines="2"></text>
+                        </item-atom>
+                    </linear-layout>
+                    <linear-layout orientation="vertical" width="match-parent" height="wrap-content">
+                        <item-atom width="0" height="match-parent" source-id="do_offer-sku-1001181401-ds1_7037" source="offer" payload-sku="1001181401" style-id="ss_1736dee6-6552-4847-b4af-2969346415e1" image-position="image-top" flex-grow="1" image-url="https://dummyimage.com/381x358/ff0000/ffffff.png%26text=Item%20Atom" image-width="1000" image-height="972">
+                            <text style-id="0" value="SAVE $15"></text>
+                            <text style-id="2" value="$35.97"></text>
+                            <text style-id="3" value="/each"></text>
+                            <text style-id="5" value="AAA Angus Beef Striploin" max-lines="2"></text>
+                            <text style-id="5" value="0.25 kg - 2 pk."></text>
+                        </item-atom>
+                        <item-atom width="0" height="match-parent" source-id="do_offer-sku-1000851793-ds1_7037" source="offer" payload-sku="1000851793" style-id="ss_1736dee6-6552-4847-b4af-2969346415e1" image-position="image-top" flex-grow="1" image-url="https://dummyimage.com/381x358/ff0000/ffffff.png%26text=Item%20Atom" image-width="997" image-height="965">
+                            <text style-id="0" value="SAVE $15"></text>
+                            <text style-id="2" value="$16.82"></text>
+                            <text style-id="3" value="/each"></text>
+                            <text style-id="5" value="85/15 Angus Ground Beef Patties" max-lines="2"></text>
+                            <text style-id="5" value="8-pk"></text>
+                        </item-atom>
+                    </linear-layout>
+                </flexbox>
+            </linear-layout>
+        </linear-layout>
+    </body>
+</storefront>
