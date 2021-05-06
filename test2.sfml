@@ -1,0 +1,153 @@
+<storefront subtitle="Robertson&#39;s" title="Blueprint name" xmlns="http://schemas.flipp.com/sfml/2.0" uuid="testuuid" sfml-version="2.0">
+  <head>
+    <styles>
+      <style id="101" border-left-color="#E0DEDE" border-left-style="solid" border-left-width="1" padding="15 15 15 15" background-color="#ffffff"></style>
+      <style id="102" border-bottom-color="#E0DEDE" border-bottom-style="solid" border-bottom-width="1" border-left-color="#E0DEDE" border-left-style="solid" border-left-width="1" padding="15 15 15 15" background-color="#ffffff"></style>
+      <style id="103" margin="0 0 10 0" background-color="#f1f0f5"></style>
+      <style id="104"></style>
+      <style id="105" border-bottom-color="#E0DEDE" border-bottom-style="solid" border-bottom-width="1" padding="20 20 20 20"></style>
+      <style id="106" padding="20 20 20 20"></style>
+      <style id="107" border-right-color="#E0DEDE" border-right-style="solid" border-right-width="1"></style>
+      <style id="108" font-family="HelveticaNeueLTStd-Roman" font-weight="normal" font-color="#000000" font-size="10"></style>
+    </styles>
+  </head>
+  <body>
+    <linear-layout width="match-parent" height="wrap-content">
+      <linear-layout width="match-parent" height="wrap-content" style-id="104">
+        <flexbox orientation="horizontal" width="match-parent" height="wrap-content" style-id="104">
+          <image width="match-parent" height="preserve-aspect" aspect-ratio="1.022365" flex-grow="1">
+            <url-source url="https://storefront-sfml-assets-production.s3.amazonaws.com/5985/assets/ck6ts25b6000u1tn1zbdddy9b/KitchenEssentials_Banner.png" width="626" height="640">
+              <area rect="0 0 626 640" source-id="dm_cover-banner_7037" source="offer" anchor-id="0"></area>
+            </url-source>
+          </image>
+        </flexbox>
+        <flexbox orientation="horizontal" width="match-parent" height="wrap-content" style-id="105">
+          <item-atom width="0" height="match-parent" source-id="do_coffee-maker_7037" source="offer" payload-sku="1001045564" style-id="107" orientation="vertical" flex-grow="1" original-price="$264.00" price="each" name="Pixie Electric Titan" sales-story="13.5- to 34.2-oz">
+            <url-source url="https://storefront-sfml-assets-production.s3.amazonaws.com/5985/assets/ck6ts25b6000u1tn1zbdddy9b/1-PixieElectricTitan.png" width="1000" height="1000"></url-source>
+            <text style-id="108" value="249.00"></text>
+            <text style-id="108" value="Pixie Electric Titan"></text>
+            <text style-id="108" value="13.5- to 34.2-oz"></text>
+          </item-atom>
+          <item-atom width="0" height="match-parent" source-id="do_blender_7037" source="offer" payload-sku="1001045566" style-id="104" orientation="vertical" flex-grow="1" original-price="$264.00" price="each" name="Ninja Blender with Single Serve Cups" sales-story="Ninja Blender with Single Serve Cups">
+            <url-source url="https://storefront-sfml-assets-production.s3.amazonaws.com/5985/assets/ck6ts25b6000u1tn1zbdddy9b/2-NinjaBlender.png" width="1000" height="1000"></url-source>
+            <text style-id="108" value="119.00"></text>
+            <text style-id="108" value="Ninja Blender with Single Serve Cups"></text>
+            <text style-id="108" value="Special offer"></text>
+          </item-atom>
+        </flexbox>
+        <flexbox orientation="horizontal" width="match-parent" height="wrap-content" style-id="106">
+          <item-atom width="0" height="match-parent" source-id="do_round-dutch-oven_7037" source="offer" payload-sku="1001045567" style-id="107" orientation="vertical" flex-grow="1" price="each" name="Le Creset Signature Round Dutch Oven" sales-story="Le Creset Signature Round Dutch Oven">
+            <url-source url="https://storefront-sfml-assets-production.s3.amazonaws.com/5985/assets/ck6ts25b6000u1tn1zbdddy9b/3-Lecreuset_Blueberry.png" width="1000" height="1000"></url-source>
+            <text style-id="108" value="275.00"></text>
+            <text style-id="108" value="Le Creset Signature Round Dutch Oven"></text>
+            <text style-id="108" value="Blueberry"></text>
+          </item-atom>
+          <item-atom width="0" height="match-parent" source-id="do_casserole-cocotte-oval_7037" source="offer" payload-sku="1001045568" style-id="107" orientation="vertical" flex-grow="1" price="each" name="Le Creuset Casserole-Cocotte Oval" sales-story="Le Creuset Casserole-Cocotte Oval">
+            <url-source url="https://storefront-sfml-assets-production.s3.amazonaws.com/5985/assets/ck6ts25b6000u1tn1zbdddy9b/4-creuset_casserole.jpeg" width="1000" height="1000"></url-source>
+            <text style-id="108" value="325.00"></text>
+            <text style-id="108" value="Le Creuset Casserole-Cocotte Oval"></text>
+            <text style-id="108" value="4.7L -Orange"></text>
+          </item-atom>
+          <item-atom width="0" height="match-parent" source-id="do_rubbermaid-containers_7037" source="offer" payload-sku="1001045569" style-id="104" orientation="vertical" flex-grow="1" price="each" name="Rubbermaid Plastic Containers" sales-story="Rubbermaid Plastic Containers">
+            <url-source url="https://storefront-sfml-assets-production.s3.amazonaws.com/5985/assets/ck6ts25b6000u1tn1zbdddy9b/5-Rubbermaid+Container.png" width="1000" height="1000"></url-source>
+            <text style-id="108" value="17.99"></text>
+            <text style-id="108" value="Rubbermaid Plastic Containers"></text>
+            <text style-id="108" value="8-pk"></text>
+          </item-atom>
+        </flexbox>
+      </linear-layout>
+      <linear-layout width="match-parent" height="wrap-content" style-id="104">
+        <flexbox orientation="horizontal" width="match-parent" height="wrap-content" style-id="104">
+          <image width="match-parent" height="preserve-aspect" aspect-ratio="0.366667" flex-grow="1">
+            <url-source url="https://storefront-sfml-assets-production.s3.amazonaws.com/5985/assets/ck6ts25b6000u1tn1zbdddy9b/ReadyForaParty_Banner.png" width="750" height="275">
+              <area label="kitchen essentials" rect="0 0 750 275" source-id="dm_party-banner_7037" source="offer" anchor-id="0"></area>
+            </url-source>
+          </image>
+        </flexbox>
+        <flexbox orientation="horizontal" width="match-parent" height="wrap-content" style-id="105">
+          <item-atom width="0" height="match-parent" source-id="do_chips_7037" source="offer" payload-sku="1001045570" style-id="107" orientation="vertical" flex-grow="2" price="each" name="Lay&#39;s Miss Vickie&#39;s, and Sun Chips Snacks" sales-story="Lay&#39;s Miss Vickie&#39;s, and Sun Chips Snacks">
+            <url-source url="https://storefront-sfml-assets-production.s3.amazonaws.com/5985/assets/ck6ts25b6000u1tn1zbdddy9b/1-LaysSnacks.png" width="1000" height="1000"></url-source>
+            <text style-id="108" value="5.00"></text>
+            <text style-id="108" value="Lay&#39;s Miss Vickie&#39;s, and Sun Chips Snacks"></text>
+            <text style-id="108" value="13.5- to 34.2-oz"></text>
+          </item-atom>
+          <item-atom width="0" height="wrap-content" source-id="do_soda-pop_7037" source="offer" payload-sku="1001045571" style-id="104" orientation="vertical" flex-grow="1" price="each" name="Coca-Cola, Sprite, 7UP, and more" sales-story="Coca-Cola, Sprite, 7UP, and more">
+            <url-source url="https://storefront-sfml-assets-production.s3.amazonaws.com/5985/assets/ck6ts25b6000u1tn1zbdddy9b/2-Pop.png" width="1000" height="1000"></url-source>
+            <text style-id="108" value="8.00"></text>
+            <text style-id="108" value="Coca-Cola, Sprite, 7UP, and more"></text>
+            <text style-id="108" value="12-pk, 12-oz, cans"></text>
+          </item-atom>
+        </flexbox>
+        <flexbox orientation="horizontal" width="match-parent" height="wrap-content" style-id="106">
+          <item-atom width="0" height="match-parent" source-id="do_goldfish-crackers_7037" source="offer" payload-sku="1001045572" style-id="107" orientation="vertical" flex-grow="1" price="each" name="Select Goldfish Baked" sales-story="Select Goldfish Baked">
+            <url-source url="https://storefront-sfml-assets-production.s3.amazonaws.com/5985/assets/ck6ts25b6000u1tn1zbdddy9b/3-Goldfish.png" width="1000" height="1000"></url-source>
+            <text style-id="108" value="5.00"></text>
+            <text style-id="108" value="Select Goldfish Baked"></text>
+            <text style-id="108" value="12-oz box"></text>
+          </item-atom>
+          <item-atom width="0" height="match-parent" source-id="do_chocolate_7037" source="offer" payload-sku="1001045573" style-id="107" orientation="vertical" flex-grow="1" price="each" name="Pixie Electric Titan" sales-story="M&amp;M&#39;s and Reese&#39;s Chocolate">
+            <url-source url="https://storefront-sfml-assets-production.s3.amazonaws.com/5985/assets/ck6ts25b6000u1tn1zbdddy9b/4-reese.png" width="1000" height="1000"></url-source>
+            <text style-id="108" value="2.75"></text>
+            <text style-id="108" value="Pixie Electric Titan"></text>
+            <text style-id="108" value="Select Products"></text>
+          </item-atom>
+          <item-atom width="0" height="match-parent" source-id="do_salsa_7037" source="offer" payload-sku="1001045574" style-id="104" orientation="vertical" flex-grow="1" price="each" name="Tostitos Chunky Salsa" sales-story="Tostitos Chunky Salsa">
+            <url-source url="https://storefront-sfml-assets-production.s3.amazonaws.com/5985/assets/ck6ts25b6000u1tn1zbdddy9b/5-tostitos.png" width="1000" height="1000"></url-source>
+            <text style-id="108" value="2.50"></text>
+            <text style-id="108" value="Tostitos Chunky Salsa"></text>
+            <text style-id="108" value="Medium 18 fl oz"></text>
+          </item-atom>
+        </flexbox>
+        <flexbox orientation="horizontal" width="match-parent" height="wrap-content" style-id="106">
+          <image width="match-parent" height="preserve-aspect" aspect-ratio="0.446928" flex-grow="1">
+            <url-source url="https://storefront-sfml-assets-production.s3.amazonaws.com/5985/assets/ck6ts25b6000u1tn1zbdddy9b/WeDeliver-MarketingBlock.png" width="716" height="320">
+              <area label="kitchen essentials" rect="0 0 716 320" source-id="dm_we-deliver-ad_7037" source="offer" anchor-id="0"></area>
+            </url-source>
+          </image>
+        </flexbox>
+        <flexbox orientation="horizontal" width="match-parent" height="wrap-content" style-id="106">
+          <item-atom width="0" height="match-parent" source-id="do_broccoli_7037" source="offer" payload-sku="1001045575" style-id="107" orientation="vertical" flex-grow="1" price="each" name="Broccoli, Organic" sales-story="Broccoli, Organic">
+            <url-source url="https://storefront-sfml-assets-production.s3.amazonaws.com/5985/assets/ck6ts25b6000u1tn1zbdddy9b/6-Broccoli.png" width="1000" height="1000"></url-source>
+            <text style-id="108" value="0.78"></text>
+            <text style-id="108" value="Broccoli, Organic"></text>
+            <text style-id="108" value="Sold in singles"></text>
+          </item-atom>
+          <item-atom width="0" height="match-parent" source-id="do_garlic_7037" source="offer" payload-sku="1001045580" style-id="107" orientation="vertical" flex-grow="1" price="each" name="Garlic Bulbs" sales-story="Garlic Bulbs">
+            <url-source url="https://storefront-sfml-assets-production.s3.amazonaws.com/5985/assets/ck6ts25b6000u1tn1zbdddy9b/7-Garlic.png" width="1000" height="1000"></url-source>
+            <text style-id="108" value="0.77"></text>
+            <text style-id="108" value="Garlic Bulbs"></text>
+            <text style-id="108" value="pack of 3"></text>
+          </item-atom>
+          <item-atom width="0" height="match-parent" source-id="do_potatoes_7037" source="offer" payload-sku="1001045576" style-id="104" orientation="vertical" flex-grow="1" price="each" name="Red Potato" sales-story="Red Potato">
+            <url-source url="https://storefront-sfml-assets-production.s3.amazonaws.com/5985/assets/ck6ts25b6000u1tn1zbdddy9b/8-RedPotato.png" width="1000" height="1000"></url-source>
+            <text style-id="108" value="0.49"></text>
+            <text style-id="108" value="Red Potato"></text>
+            <text style-id="108" value="0.07 - 0.23kg"></text>
+          </item-atom>
+        </flexbox>
+        <flexbox orientation="horizontal" width="match-parent" height="wrap-content" style-id="106">
+          <item-atom width="0" height="match-parent" source-id="do_salmon_7037" source="offer" payload-sku="1001045577" style-id="106" orientation="vertical" flex-grow="2" price="per 1kg" name="Fresh Market Atlantic Salmon Fillet" sales-story="Fresh Market Atlantic Salmon Fillet">
+            <url-source url="https://storefront-sfml-assets-production.s3.amazonaws.com/5985/assets/ck6ts25b6000u1tn1zbdddy9b/9-FreshFromtheSea_Lifestyle.png" width="1000" height="1000"></url-source>
+            <text style-id="108" value="21.00"></text>
+            <text style-id="108" value="Fresh Market Atlantic Salmon Fillet"></text>
+            <text style-id="108" value="per 1kg"></text>
+          </item-atom>
+          <linear-layout orientation="vertical" width="match-parent" height="wrap-content">
+            <item-atom width="0" height="match-parent" source-id="do_striploin_7037" source="offer" payload-sku="1001045578" style-id="102" orientation="vertical" flex-grow="1" price="each" name="AAA Angus Beed Striploin" sales-story="AAA Angus Beed Striploin">
+              <url-source url="https://storefront-sfml-assets-production.s3.amazonaws.com/5985/assets/ck6ts25b6000u1tn1zbdddy9b/10-AAAStriploin.png" width="1000" height="1000"></url-source>
+              <text style-id="108" value="35.97"></text>
+              <text style-id="108" value="AAA Angus Beed Striploin"></text>
+              <text style-id="108" value="0.025 kg - 2pk"></text>
+            </item-atom>
+            <item-atom width="0" height="match-parent" source-id="do_ground-beef_7037" source="offer" payload-sku="1001045579" style-id="101" orientation="vertical" flex-grow="1" price="each" name="85/15 Angus Ground Beef Patties" sales-story="85/15 Angus Ground Beef Patties">
+              <url-source url="https://storefront-sfml-assets-production.s3.amazonaws.com/5985/assets/ck6ts25b6000u1tn1zbdddy9b/11-Angus+Patty.png" width="1000" height="1000"></url-source>
+              <text style-id="108" value="16.82"></text>
+              <text style-id="108" value="85/15 Angus Ground Beef Patties"></text>
+              <text style-id="108" value="8-pk"></text>
+            </item-atom>
+          </linear-layout>
+        </flexbox>
+      </linear-layout>
+    </linear-layout>
+  </body>
+</storefront>
